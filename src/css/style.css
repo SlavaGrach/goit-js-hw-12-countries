@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.main {
+  width: 400px;
+}
+
+.country-title {
+  text-align: center;
+}
+
+.output {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flag {
+  width: 200px;
+}
