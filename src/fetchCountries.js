@@ -4,6 +4,8 @@ export default function fetchCountries(searchQuery) {
 
     // console.log(searchQuery);
 
+    
+
     axios.defaults.baseURL = 'https://restcountries.eu/rest/v2/name/';
    
     return axios
