@@ -6,7 +6,9 @@
   "homepage": "https://SlavaGrach.github.io/goit-js-hw-12-countries",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-12-countries/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-12-countries/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "lodash.debounce": "^4.0.8",
+    "parcel-plugin-nuke-dist": "^1.0.1",
     "pnotify": "^5.2.0"
   }
 }
